@@ -11,6 +11,6 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "80:8000"
+      - "5432:8000"
     user: "1000:1000"
     init: true
