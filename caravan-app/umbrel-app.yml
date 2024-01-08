@@ -1,5 +1,6 @@
 manifestVersion: 1
 id: caravan
+category: bitcoin
 name: Caravan
 tagline: Free yourself from singlesig, hop on the caravan!
 icon: https://svgshare.com/i/11jq.svg
