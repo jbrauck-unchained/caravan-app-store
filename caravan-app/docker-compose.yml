@@ -14,5 +14,6 @@ services:
       - "5432:8000"
     user: "1000:1000"
     init: true
+  nginx:
     volumes:
         - ${APP_DATA_DIR}:/var/cache/nginx
