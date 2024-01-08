@@ -11,6 +11,12 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "5432:8000"
+      - "5432:80"
     user: "1000:1000"
     init: true
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ${APP_DATA_DIR}:/var/cache/nginx
+    ports:
+      - "5433:80"
