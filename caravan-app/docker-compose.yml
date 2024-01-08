@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: caravan_server_1
+      APP_HOST: caravan-app_server_1
       APP_PORT: 2272
   server:
     image: jbrauck/caravan:latest
