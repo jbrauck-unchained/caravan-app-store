@@ -1,10 +1,9 @@
 manifestVersion: 1
 id: caravan
-category: bitcoin
+category: Bitcoin
 name: Caravan
 tagline: Free yourself from singlesig, hop on the caravan!
 icon: https://svgshare.com/i/11jq.svg
-category: Development
 version: "0.7.0"
 port: 2272
 description: >-
