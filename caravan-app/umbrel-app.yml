@@ -24,7 +24,6 @@ gallery:
   - https://i.imgur.com/MtpOAWl.png
 releaseNotes: >-
   First iteration of umbrel version of caravan.
-dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
