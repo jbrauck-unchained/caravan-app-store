@@ -18,3 +18,5 @@ services:
 
   app:
     image: caravanbitcoin/coordinator:latest
+    ports: 
+      - "8000:80"
