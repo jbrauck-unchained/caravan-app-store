@@ -17,6 +17,6 @@ services:
       - app
 
   app:
-    image: caravanbitcoin/coordinator:latest
+    image: caravanbitcoin/coordinator:sha-099ef25
     ports: 
       - "8000:80"
