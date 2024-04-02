@@ -17,8 +17,12 @@ services:
       - ${APP_DATA_DIR}/config/nginx.conf:/etc/nginx/conf.d/nginx.conf:ro
     depends_on:
       - app
+    networks:
+      - default
 
   app:
     image: caravanbitcoin/coordinator:sha-099ef25
     ports: 
       - "8000:80"
+    networks:
+      - default
