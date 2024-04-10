@@ -17,7 +17,7 @@ dependencies:
 repo: https://github.com/jbrauck/caravan-app-store
 support: https://github.com/jbrauck/caravan-app-store/issues
 icon: https://svgshare.com/i/11jq.svg
-port: 8000
+port: 2272
 gallery:
   - https://i.imgur.com/j7Zcz4X.png
   - https://i.imgur.com/8Z5NJn2.png
