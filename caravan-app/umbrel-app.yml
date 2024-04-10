@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: caravan
+id: caravan-app
 category: bitcoin
 name: Caravan
 version: "0.7.0"
