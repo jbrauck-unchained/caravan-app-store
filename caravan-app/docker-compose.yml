@@ -21,8 +21,11 @@ services:
       - default
 
   app:
-    image: caravanbitcoin/coordinator:sha-099ef25
+    image: caravan:umbrel
     ports: 
       - "8000:80"
     networks:
       - default
+    environment:
+      REACT_APP_RPC_USERNAME: $APP_BITCOIN_RPC_USER
+      REACT_APP_RPC_PASSWORD: $APP_BITCOIN_RPC_PASS
