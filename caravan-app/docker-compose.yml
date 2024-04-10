@@ -23,7 +23,7 @@ services:
       - default
 
   app:
-    image: jbrauck/caravan-umbrel:umbrel
+    image: jbrauck/caravan-umbrel:umbrel-v1.1
     ports: 
       - "8000:80"
     networks:
