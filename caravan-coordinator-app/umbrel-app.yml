@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: caravan-caravan-app
-name: Caravan
+id: caravan-coordinator-app
+name: Caravan Coordinator
 tagline: Stateless multisig coordinator
 icon: https://imgur.com/a/6tJmSZk
 category: bitcoin
